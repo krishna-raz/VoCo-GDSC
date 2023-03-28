@@ -172,7 +172,7 @@ class _StoryTelling2 extends State<storytelling2> {
                                         print('Button pressed ...');
                                       },
                                       style: ElevatedButton.styleFrom(
-                                        primary:
+                                        backgroundColor:
                                             Color.fromARGB(248, 156, 208, 52),
                                       ),
                                       child: Text(
@@ -201,7 +201,7 @@ class _StoryTelling2 extends State<storytelling2> {
                                         print('Button pressed ...');
                                       },
                                       style: ElevatedButton.styleFrom(
-                                        primary:
+                                        backgroundColor:
                                             Color.fromARGB(248, 212, 255, 251),
                                       ),
                                       child: Text(

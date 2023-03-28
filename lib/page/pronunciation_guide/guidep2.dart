@@ -166,7 +166,8 @@ class _Demo2WidgetState extends State<pronunciation2> {
                                   Navigator.of(context).pop();
                                 },
                                 style: ElevatedButton.styleFrom(
-                                  primary: Color.fromARGB(248, 212, 255, 251),
+                                  backgroundColor:
+                                      Color.fromARGB(248, 212, 255, 251),
                                 ),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
@@ -220,7 +221,8 @@ class _Demo2WidgetState extends State<pronunciation2> {
                                   }
                                 },
                                 style: ElevatedButton.styleFrom(
-                                  primary: Color.fromARGB(248, 212, 255, 251),
+                                  backgroundColor:
+                                      Color.fromARGB(248, 212, 255, 251),
                                 ),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
@@ -271,7 +273,8 @@ class _Demo2WidgetState extends State<pronunciation2> {
                                       : await _speakQuote();
                                 },
                                 style: ElevatedButton.styleFrom(
-                                  primary: Color.fromARGB(248, 212, 255, 251),
+                                  backgroundColor:
+                                      Color.fromARGB(248, 212, 255, 251),
                                 ),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
@@ -313,7 +316,8 @@ class _Demo2WidgetState extends State<pronunciation2> {
                                       : await _startPlaying();
                                 },
                                 style: ElevatedButton.styleFrom(
-                                  primary: Color.fromARGB(248, 212, 255, 251),
+                                  backgroundColor:
+                                      Color.fromARGB(248, 212, 255, 251),
                                 ),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,

@@ -37,14 +37,14 @@ class _StartQuizState extends State<StartQuiz> {
         backgroundColor: Colors.green,
       );
 
-      // Scaffold.of(ctx).showSnackBar(snackbar);
+      ScaffoldMessenger.of(ctx).showSnackBar(snackbar);
     } else {
       final snackbar = SnackBar(
         content: Text("Wrong Answer"),
         duration: Duration(milliseconds: 500),
         backgroundColor: Colors.red,
       );
-      // Scaffold.of(ctx).showSnackBar(snackbar);
+      ScaffoldMessenger.of(context).showSnackBar(snackbar);
     }
     setState(() {
       if (n < que_list.length - 1) {

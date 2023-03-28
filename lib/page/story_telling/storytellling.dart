@@ -94,7 +94,7 @@ class _StoryTelling extends State<StoryTelling> {
                                         shape: RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(30)),
-                                        primary:
+                                        backgroundColor:
                                             Color.fromARGB(255, 255, 226, 5),
                                       ),
                                       child: Text(
@@ -124,7 +124,7 @@ class _StoryTelling extends State<StoryTelling> {
                                                     new storytelling2()));
                                       },
                                       style: ElevatedButton.styleFrom(
-                                        primary:
+                                        backgroundColor:
                                             Color.fromRGBO(77, 134, 249, 0.973),
                                         shape: RoundedRectangleBorder(
                                             borderRadius:
@@ -170,7 +170,7 @@ class _StoryTelling extends State<StoryTelling> {
                                         shape: RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(30)),
-                                        primary:
+                                        backgroundColor:
                                             Color.fromARGB(248, 156, 208, 52),
                                       ),
                                       child: Text(
@@ -199,7 +199,8 @@ class _StoryTelling extends State<StoryTelling> {
                                         shape: RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(30)),
-                                        primary: Color.fromARGB(248, 213, 0, 0),
+                                        backgroundColor:
+                                            Color.fromARGB(248, 213, 0, 0),
                                       ),
                                       child: Text(
                                         "Two Frogs With The Same Problem",

@@ -6,7 +6,6 @@ import 'package:google_fonts/google_fonts.dart';
 // import 'package:loginuicolors/page/TalkWithVoC/talkVoCop2.dart';
 // import 'package:loginuicolors/page/TalkWithVoC/talkVoCop3.dart';
 import 'package:loginuicolors/page/home.dart';
-import 'package:loginuicolors/page/ui/comingsoon.dart';
 import 'package:loginuicolors/page/vocogyan/tech/ch1.dart';
 
 class vocogyan extends StatefulWidget {
@@ -121,7 +120,8 @@ class _vocogyan extends State<vocogyan> {
                               ),
                               style: ElevatedButton.styleFrom(
                                   //     shape: CircleBorder(),
-                                  primary: Color.fromARGB(255, 238, 205, 40)),
+                                  backgroundColor:
+                                      Color.fromARGB(255, 238, 205, 40)),
                             ))),
                       )
                     ]),
@@ -169,7 +169,8 @@ class _vocogyan extends State<vocogyan> {
                             ),
                             style: ElevatedButton.styleFrom(
                                 //     shape: CircleBorder(),
-                                primary: Color.fromARGB(255, 217, 132, 111)),
+                                backgroundColor:
+                                    Color.fromARGB(255, 217, 132, 111)),
                           )),
                     ]),
               ]),

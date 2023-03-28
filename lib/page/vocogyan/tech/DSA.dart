@@ -77,7 +77,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new DsaQuiz()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -114,7 +114,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -151,7 +151,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -188,7 +188,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -225,7 +225,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -262,7 +262,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -299,7 +299,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -336,7 +336,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -373,7 +373,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),
@@ -410,7 +410,7 @@ class _DSA extends State<DSA> {
                                     builder: (context) => new comingsoon()));
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(248, 212, 255, 251),
+                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30)),
                           ),

@@ -93,7 +93,8 @@ class _Games extends State<Games> {
                                                 new storytelling2()));
                                   },
                                   style: ElevatedButton.styleFrom(
-                                    primary: Color.fromARGB(248, 212, 255, 251),
+                                    backgroundColor:
+                                        Color.fromARGB(248, 212, 255, 251),
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(30)),
@@ -122,7 +123,8 @@ class _Games extends State<Games> {
                                     print('Button pressed ...');
                                   },
                                   style: ElevatedButton.styleFrom(
-                                    primary: Color.fromARGB(248, 212, 255, 251),
+                                    backgroundColor:
+                                        Color.fromARGB(248, 212, 255, 251),
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(30)),
@@ -165,7 +167,8 @@ class _Games extends State<Games> {
                                     print('Button pressed ...');
                                   },
                                   style: ElevatedButton.styleFrom(
-                                    primary: Color.fromARGB(248, 212, 255, 251),
+                                    backgroundColor:
+                                        Color.fromARGB(248, 212, 255, 251),
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(30)),
@@ -194,7 +197,8 @@ class _Games extends State<Games> {
                                     print('Button pressed ...');
                                   },
                                   style: ElevatedButton.styleFrom(
-                                    primary: Color.fromARGB(248, 212, 255, 251),
+                                    backgroundColor:
+                                        Color.fromARGB(248, 212, 255, 251),
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(30)),
