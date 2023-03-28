@@ -156,7 +156,7 @@ class _StartQuizState extends State<StartQuiz> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () => checkAnswer(true, ctx),
                     child: Text(
                       "True",
                       style: TextStyle(color: Colors.white, fontSize: 20.0),

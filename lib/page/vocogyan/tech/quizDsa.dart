@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:loginuicolors/page/home.dart';
+import 'package:loginuicolors/page/quiz/StartQuiz.dart';
 // import 'package:loginuicolors/page/ui/comingsoon.dart';
+import '../../story_telling/quiz/QuizPage.dart';
 import '../quiz/StartQuiz.dart';
 
 // import 'package:loginuicolors/page/story_telling/storytelling2.dart';
@@ -233,7 +235,8 @@ class _DsaQuiz extends State<DsaQuiz> {
                                     Navigator.push(
                                         context,
                                         new MaterialPageRoute(
-                                            builder: (context) => HomePage()));
+                                            builder: (context) =>
+                                                new QuizPage()));
                                     print('Button pressed ...');
                                   },
                                   style: ElevatedButton.styleFrom(
