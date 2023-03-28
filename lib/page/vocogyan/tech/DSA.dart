@@ -286,33 +286,36 @@ class _DSA extends State<DSA> {
                 // color: Colors.black,
               ),
               Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
-                            Navigator.push(
-                                context,
-                                new MaterialPageRoute(
-                                    builder: (context) => new comingsoon()));
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 7 - Ruby",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
+                width: mediaQuery.size.width * 0.95,
+                height: mediaQuery.size.height * 0.2,
+                //add button
+                child: SizedBox(
+                  child: ElevatedButton(
+                    onPressed: () {
+                      // Navigator.pushNamed(context, 'Vguide');
+                      Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new comingsoon()));
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Color.fromARGB(248, 212, 255, 251),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30)),
+                    ),
+                    child: Text(
+                      "Ep. 7 - Ruby",
+                      textAlign: TextAlign.center,
+                      style: GoogleFonts.lora(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.normal,
+                        fontSize: mediaQuery.size.width * 0.05,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
 
               //add text
 
@@ -323,33 +326,36 @@ class _DSA extends State<DSA> {
                 // color: Colors.black,
               ),
               Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
-                            Navigator.push(
-                                context,
-                                new MaterialPageRoute(
-                                    builder: (context) => new comingsoon()));
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 8 - Fluent",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
+                width: mediaQuery.size.width * 0.95,
+                height: mediaQuery.size.height * 0.2,
+                //add button
+                child: SizedBox(
+                  child: ElevatedButton(
+                    onPressed: () {
+                      // Navigator.pushNamed(context, 'Vguide');
+                      Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (context) => new comingsoon()));
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Color.fromARGB(248, 212, 255, 251),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30)),
+                    ),
+                    child: Text(
+                      "Ep. 8 - Fluent",
+                      textAlign: TextAlign.center,
+                      style: GoogleFonts.lora(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.normal,
+                        fontSize: mediaQuery.size.width * 0.05,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
 
               //add text
 
