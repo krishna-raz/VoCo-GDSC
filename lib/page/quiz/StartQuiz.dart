@@ -97,6 +97,7 @@ class _StartQuizState extends State<StartQuiz> {
 
   @override
   Widget build(BuildContext context) {
+    var mediaQuery = MediaQuery.of(context);
     return Scaffold(
       appBar: AppBar(
         title: Text("Quiz"),
@@ -155,29 +156,47 @@ class _StartQuizState extends State<StartQuiz> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  ElevatedButton(
-                    onPressed: () => checkAnswer(true, ctx),
-                    child: Text(
-                      "True",
-                      style: TextStyle(color: Colors.white, fontSize: 20.0),
+                  Container(
+                    width: mediaQuery.size.width * 0.4,
+                    height: mediaQuery.size.height * 0.4,
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10.0)),
+                      ),
+                      onPressed: () => checkAnswer(true, ctx),
+                      //hight and width
+
+                      child: Text(
+                        "True",
+                        style: TextStyle(color: Colors.white, fontSize: 20.0),
+                      ),
+                      //
+                      // padding: EdgeInsets.fromLTRB(50, 15, 50, 15),
+                      // onPressed: () => checkAnswer(true, ctx),
+                      // color: Colors.green,
+                      // shape: RoundedRectangleBorder(
+                      //     borderRadius: BorderRadius.circular(10.0)
                     ),
-                    //
-                    // padding: EdgeInsets.fromLTRB(50, 15, 50, 15),
-                    // onPressed: () => checkAnswer(true, ctx),
-                    // color: Colors.green,
-                    // shape: RoundedRectangleBorder(
-                    //     borderRadius: BorderRadius.circular(10.0)
                   ),
-                  ElevatedButton(
-                    onPressed: () => checkAnswer(false, ctx),
-                    child: Text(
-                      "False",
-                      style: TextStyle(color: Colors.white, fontSize: 20.0),
+                  Container(
+                    width: mediaQuery.size.width * 0.4,
+                    height: mediaQuery.size.height * 0.4,
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10.0)),
+                      ),
+                      onPressed: () => checkAnswer(false, ctx),
+                      child: Text(
+                        "False",
+                        style: TextStyle(color: Colors.white, fontSize: 20.0),
+                      ),
+                      // padding: EdgeInsets.fromLTRB(50, 15, 50, 15),
+                      // color: Colors.red,
+                      // shape: RoundedRectangleBorder(
+                      //     borderRadius: BorderRadius.circular(10.0)
                     ),
-                    // padding: EdgeInsets.fromLTRB(50, 15, 50, 15),
-                    // color: Colors.red,
-                    // shape: RoundedRectangleBorder(
-                    //     borderRadius: BorderRadius.circular(10.0)
                   ),
                 ],
               ),

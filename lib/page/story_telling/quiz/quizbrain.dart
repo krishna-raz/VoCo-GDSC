@@ -4,32 +4,36 @@ class Brainquiz {
   int _questionno = 0;
   List<Question> _quesbank = [
     //_make the data pvt
-    Question(q: 'You can lead a cow down stairs but not up stairs.', a: false),
     Question(
-        q: 'Approximately one quarter of human bones are in the feet.',
+        q: 'Linked lists are a type of data structure used in computer science.',
         a: true),
-    Question(q: 'A slug\'s blood is green.', a: true),
-    Question(q: 'Buzz Aldrin\'s mother\'s maiden name was \"Moon\".', a: true),
-    Question(q: 'It is illegal to pee in the Ocean in Portugal.', a: true),
     Question(
-        q: 'No piece of square dry paper can be folded in half more than 7 times.',
+        q: 'Each element in a linked list points to the next element in the sequence.',
+        a: true),
+    Question(
+        q: 'Linked lists can only be traversed in one direction', a: false),
+    Question(
+        q: 'Linked lists are not commonly used in programming because they are slow.',
         a: false),
     Question(
-        q: 'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
-        a: true),
-    Question(
-        q: 'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
+        q: 'Adding an element to the end of a linked list can be done in constant time.',
         a: false),
     Question(
-        q: 'The total surface area of two human lungs is approximately 70 square metres.',
-        a: true),
+        q: 'Deleting an element from the middle of a linked list requires shifting all subsequent elements.',
+        a: false),
+    Question(
+        q: 'The first element in a linked list is called the head.', a: true),
+    Question(
+        q: 'A singly-linked list has two references for each node, one to the previous node and one to the next node.',
+        a: false),
+    Question(q: 'A circular linked list has no beginning or end.', a: true),
     Question(q: 'Google was originally called \"Backrub\".', a: true),
     Question(
-        q: 'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
+        q: 'Linked lists allow for efficient insertion and deletion of elements at any position in the list..',
         a: true),
     Question(
-        q: 'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
-        a: true),
+        q: 'Linked lists are not commonly used in programming because they are slow.',
+        a: false),
   ];
 
   void checknextquestion() {
