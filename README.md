@@ -1,36 +1,54 @@
-# Beautiful Login Page In Flutter
+ <p align="center">
+      <img src="assets/iconvoco.png" width="15%" alt=""/>
+   </p>
 
-Create a login and signup page in flutter.
-
-This amazing app is provided in open source. So, helpful contributions are highly appreciated.
-
-## ScreenShots
+<h1 align="center">welcome to VoCo</h1>
 
 
-| <img src="screenshots/login.jpg"  width="300"/> | <img src="screenshots/register.jpg" width="300"/>  |
+
+ <h2 align="center">Preview 📱</h2>
+ <img src="screenshots/voco .png"  width="auto"/> 
+ 
+ 
+ 
+ 
+ 
+ 
+ <h2 align="center">About 📖</h2>
+   
+  Introducing VoCo, the revolutionary application designed specifically for visually impaired individuals. With an in-app voice assistant, users can enjoy a seamless and intuitive experience. The app is divided into four easy-to-use quadrants, each with its own unique features. 
+
+The primary section of VoCo is VoCo Gyan, which contains an extensive audio library of courses. Users can access a vast array of educational materials that cover a wide range of topics. 
+
+Talk with VoCo is the second quadrant, where users can improve their communication skills. With this feature, users can practice speaking and receive feedback from VoCo's voice assistant. 
+
+Pronunciation Guide is another exciting feature of VoCo, enabling users to improve their sentence and word pronunciation. This quadrant provides users with real-time feedback on their pronunciation, helping them refine their speech. 
+
+Finally, the Games section is an entertaining way to improve reasoning skills while also lightening the mood. Users can engage in fun, challenging games that require critical thinking and problem-solving skills. 
+
+Overall, VoCo is the perfect application for visually impaired individuals seeking to enhance their education, communication, and overall mental agility.
 
 ---
 
-### :heart: Found this project useful?
 
-If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
+
+
 
 ---
 
-## Project Created & Maintained By
+   <h2 align="center">How to Use 🤔</h2>
 
-## BCE/Team Vision
+   ```   
+   - Clone this repository:
+   $ git clone https://github.com/
+   - Enter in directory:
+   $ cd calculator
+   - For install dependencies:
+   $ flutter packages get
+   - Run the app: 
+   $ flutter run
+   ```
 
-<a href="https://twitter.com/sidd_art_"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
-<a href="https://linkedin.com/in/siddharthchopra1/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
-<a href="https://instagram.com/siddharth_chopra"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
-
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-- clone repo and setup dart plugin
+   ---
 
 
