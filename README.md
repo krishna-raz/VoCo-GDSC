@@ -38,9 +38,13 @@ Overall, VoCo is the perfect application for visually impaired individuals seeki
 
    <h2 align="center">How to Use 🤔</h2>
 
+- Clone the Git repository using git clone https://github.com/yourusername/MyInventoryApp.git
+- Open the project in Android Studio
+- Run the app on an emulator or physical device
    ```   
    - Clone this repository:
    $ git clone https://github.com/
+   
    - Enter in directory:
    $ cd calculator
    - For install dependencies:
@@ -50,5 +54,14 @@ Overall, VoCo is the perfect application for visually impaired individuals seeki
    ```
 
    ---
+
+
+## Features
+
+- *User authentication using Firebase Authentication*
+- *voice assistant for better using experience for users*
+
+## Demo
+ - Android application ([click here](https://github.com/felipecastrosales/Calculator/blob/master/LICENSE))
 
 
