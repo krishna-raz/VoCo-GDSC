@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:loginuicolors/page/story_telling/storytelling2.dart';
+import 'package:loginuicolors/page/game/storytelling2.dart';
 
 import 'package:loginuicolors/page/ui/comingsoon.dart';
 

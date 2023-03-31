@@ -8,8 +8,7 @@ import 'package:loginuicolors/page/form/form.dart';
 import 'package:loginuicolors/page/login/LoginHome.dart';
 import 'package:loginuicolors/page/pronunciation_guide/guidep2.dart';
 import 'package:loginuicolors/page/vocogyan/story1.dart';
-import 'package:loginuicolors/page/story_telling/storytellling.dart';
-import 'package:loginuicolors/page/story_telling/storytelling2.dart';
+import 'package:loginuicolors/page/game/storytelling2.dart';
 import 'package:loginuicolors/page/ui/comingsoon.dart';
 import 'package:loginuicolors/page/ui/welcome.dart';
 import 'package:loginuicolors/page/TalkWithVoC/talkVoCop1.dart';
@@ -50,7 +49,7 @@ void main() async {
       'talkVoCo1': (context) => Talkwithvoco1(),
       'talkVoCo2': (context) => Talkwithvoco2(),
       'talkVoCo3': (context) => Talkwithvoco3(),
-      'StoryTelling': (context) => StoryTelling(),
+      // 'StoryTelling': (context) => StoryTelling(),
       'StoryTelling2': (context) => storytelling2(),
       'ComingSoon': (context) => comingsoon(),
       'vocogyan': (context) => vocogyan(),
