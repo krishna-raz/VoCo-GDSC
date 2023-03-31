@@ -38,12 +38,12 @@ Overall, VoCo is the perfect application for visually impaired individuals seeki
 
    <h2 align="center">How to Use 🤔</h2>
 
-- Clone the Git repository using git clone https://github.com/krishna-raz/voco-GSC.git
+- Clone the Git repository using git https://github.com/krishna-raz/VoCo-GDSC.git
 - Open the project in Android Studio
 - Run the app on an emulator or physical device
    ```   
    - Clone this repository:
-   $ git clone https://github.com/krishna-raz/voco-GSC.git
+   $ git clone https://github.com/krishna-raz/VoCo-GDSC.git
    
    - Enter in directory:
    $ cd voco-GSC
