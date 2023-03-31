@@ -64,6 +64,7 @@ Overall, VoCo is the perfect application for visually impaired individuals seeki
 ## Demo
  - Android application ([click here](https://drive.google.com/file/d/1G2OAgv496ZIgfTvQDB9stnZZdOtdA90W/view?usp=share_link))
  
+ 
  ## Document
  - Document :- [click here](https://www.canva.com/design/DAFevsSbsUg/JUWPEVy9L6Ob8H1G_NHvCw/view?utm_content=DAFevsSbsUg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
