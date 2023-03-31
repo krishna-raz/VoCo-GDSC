@@ -57,379 +57,153 @@ class _DSA extends State<DSA> {
               ],
             )),
         body: SingleChildScrollView(
+
             // controller: controller,
             child: Column(
-
-                // padding: EdgeInsets.all(10),
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-              // children: <Widget>[
               Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
+                // width: mediaQuery.size.width * 1,
+                // height: mediaQuery.size.height * 0.39,
+                // color: Colors.black,
+                child: Column(children: [
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: <Widget>[
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 1 - Linked List",
+                          onpressed: () {
                             Navigator.push(
                                 context,
                                 new MaterialPageRoute(
                                     builder: (context) => new DsaQuiz()));
                           },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 1 - Linked List",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
+                        ),
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 1 -c",
+                          onpressed: () {
                             Navigator.push(
                                 context,
                                 new MaterialPageRoute(
                                     builder: (context) => new comingsoon()));
                           },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 2 - C ",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
-                            Navigator.push(
-                                context,
-                                new MaterialPageRoute(
-                                    builder: (context) => new comingsoon()));
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 3 - C++",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
-                            Navigator.push(
-                                context,
-                                new MaterialPageRoute(
-                                    builder: (context) => new comingsoon()));
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 4 - C#",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
-                            Navigator.push(
-                                context,
-                                new MaterialPageRoute(
-                                    builder: (context) => new comingsoon()));
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 5 - Java",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
-                            Navigator.push(
-                                context,
-                                new MaterialPageRoute(
-                                    builder: (context) => new comingsoon()));
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 6 - Python",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                width: mediaQuery.size.width * 0.95,
-                height: mediaQuery.size.height * 0.2,
-                //add button
-                child: SizedBox(
-                  child: ElevatedButton(
-                    onPressed: () {
-                      // Navigator.pushNamed(context, 'Vguide');
-                      Navigator.push(
-                          context,
-                          new MaterialPageRoute(
-                              builder: (context) => new comingsoon()));
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(30)),
-                    ),
-                    child: Text(
-                      "Ep. 7 - Ruby",
-                      textAlign: TextAlign.center,
-                      style: GoogleFonts.lora(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.normal,
-                        fontSize: mediaQuery.size.width * 0.05,
-                      ),
-                    ),
+                        ),
+                      ]),
+                  SizedBox(
+                    height: 10,
                   ),
-                ),
-              ),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                width: mediaQuery.size.width * 0.95,
-                height: mediaQuery.size.height * 0.2,
-                //add button
-                child: SizedBox(
-                  child: ElevatedButton(
-                    onPressed: () {
-                      // Navigator.pushNamed(context, 'Vguide');
-                      Navigator.push(
-                          context,
-                          new MaterialPageRoute(
-                              builder: (context) => new comingsoon()));
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(30)),
-                    ),
-                    child: Text(
-                      "Ep. 8 - Fluent",
-                      textAlign: TextAlign.center,
-                      style: GoogleFonts.lora(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.normal,
-                        fontSize: mediaQuery.size.width * 0.05,
-                      ),
-                    ),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: <Widget>[
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 3 - c++",
+                          onpressed: () {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new comingsoon()));
+                          },
+                        ),
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 4 - C#",
+                          onpressed: () {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new comingsoon()));
+                          },
+                        ),
+                      ]),
+                  SizedBox(
+                    height: 10,
                   ),
-                ),
-              ),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: <Widget>[
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 5 - Java",
+                          onpressed: () {
                             Navigator.push(
                                 context,
                                 new MaterialPageRoute(
                                     builder: (context) => new comingsoon()));
                           },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 9 - Go",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
-
-              //add text
-
-              Container(
-                width: mediaQuery.size.width * 1,
-                height: mediaQuery.size.height * 0.04,
-                // color: Color.fromARGB(255, 22, 204, 43),
-                // color: Colors.black,
-              ),
-              Container(
-                  width: mediaQuery.size.width * 0.95,
-                  height: mediaQuery.size.height * 0.2,
-                  //add button
-                  child: SizedBox(
-                      child: ElevatedButton(
-                          onPressed: () {
-                            // Navigator.pushNamed(context, 'Vguide');
+                        ),
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 6 - Python",
+                          onpressed: () {
                             Navigator.push(
                                 context,
                                 new MaterialPageRoute(
                                     builder: (context) => new comingsoon()));
                           },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(248, 212, 255, 251),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
-                          ),
-                          child: Text(
-                            "Ep. 10 - Dart",
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.lora(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FontStyle.normal,
-                              fontSize: mediaQuery.size.width * 0.05,
-                            ),
-                          )))),
+                        ),
+                      ]),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: <Widget>[
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 1 -Ruby",
+                          onpressed: () {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new comingsoon()));
+                          },
+                        ),
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 8 - Fluent",
+                          onpressed: () {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new comingsoon()));
+                          },
+                        ),
+                      ]),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: <Widget>[
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 9 - Go",
+                          onpressed: () {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new comingsoon()));
+                          },
+                        ),
+                        CustomizedButton(
+                          mediaQuery: mediaQuery,
+                          title: "Ep. 10 - Dart",
+                          onpressed: () {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new comingsoon()));
+                          },
+                        ),
+                      ]),
+                ]),
+              ),
 
               //add text
 
@@ -440,5 +214,42 @@ class _DSA extends State<DSA> {
                 // color: Colors.black,
               ),
             ])));
+  }
+}
+
+class CustomizedButton extends StatelessWidget {
+  const CustomizedButton({
+    Key? key,
+    required this.mediaQuery,
+    required this.title,
+    required this.onpressed,
+  }) : super(key: key);
+
+  final MediaQueryData mediaQuery;
+  final String title;
+  final VoidCallback onpressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: mediaQuery.size.width * 0.48,
+      height: mediaQuery.size.height * 0.42,
+      child: ElevatedButton(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Color.fromARGB(248, 212, 255, 251),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+        ),
+        onPressed: onpressed,
+        child: Text(title,
+            textAlign: TextAlign.center,
+            style: GoogleFonts.lora(
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+              fontStyle: FontStyle.normal,
+              fontSize: mediaQuery.size.width * 0.05,
+            )),
+      ),
+    );
   }
 }

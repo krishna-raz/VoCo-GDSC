@@ -82,7 +82,10 @@ class _Demo2WidgetState extends State<HomePage> {
         child: Container(
           width: mediaQuery.size.width * 1,
           height: mediaQuery.size.height * 1,
-          decoration: BoxDecoration(color: Colors.blue),
+          decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('assets/register.png'), fit: BoxFit.cover),
+          ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
