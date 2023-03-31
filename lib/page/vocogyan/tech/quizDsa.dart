@@ -6,7 +6,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:loginuicolors/page/home.dart';
 // import 'package:loginuicolors/page/ui/comingsoon.dart';
-import '../../story_telling/quiz/QuizPage.dart';
+import 'quiz/QuizPage.dart';
 
 // import 'package:loginuicolors/page/story_telling/storytelling2.dart';
 

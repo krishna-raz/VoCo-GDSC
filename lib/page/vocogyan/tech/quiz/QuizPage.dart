@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:loginuicolors/page/home.dart';
-import 'package:loginuicolors/page/story_telling/quiz/quizbrain.dart';
+import 'package:loginuicolors/page/vocogyan/tech/quiz/quizbrain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class QuizPage extends StatefulWidget {

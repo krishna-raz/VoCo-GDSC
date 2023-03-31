@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:loginuicolors/page/home.dart';
-import 'package:loginuicolors/page/quiz/question.dart';
+import 'package:loginuicolors/page/game/quiz/question.dart';
 
 class StartQuiz extends StatefulWidget {
   @override

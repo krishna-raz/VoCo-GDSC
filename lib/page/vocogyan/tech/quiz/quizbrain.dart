@@ -1,4 +1,4 @@
-import 'package:loginuicolors/page/story_telling/quiz/question.dart';
+import 'package:loginuicolors/page/vocogyan/tech/quiz/question.dart';
 
 class Brainquiz {
   int _questionno = 0;
