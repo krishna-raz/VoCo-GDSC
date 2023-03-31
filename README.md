@@ -46,7 +46,7 @@ Overall, VoCo is the perfect application for visually impaired individuals seeki
    $ git clone https://github.com/krishna-raz/voco-GSC.git
    
    - Enter in directory:
-   $ cd calculator
+   $ cd voco-GSC
    - For install dependencies:
    $ flutter packages get
    - Run the app: 
