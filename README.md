@@ -2,7 +2,7 @@
       <img src="assets/iconvoco.png" width="15%" alt=""/>
    </p>
 
-<h1 align="center">welcome to VoCo</h1>
+<h1 align="center">Welcome to VoCo</h1>
 
 
 
@@ -65,7 +65,12 @@ Overall, VoCo is the perfect application for visually impaired individuals seeki
  - Android application ([click here](https://drive.google.com/file/d/1G2OAgv496ZIgfTvQDB9stnZZdOtdA90W/view?usp=share_link))
  
  
- ## Document
- - Document :- [click here](https://www.canva.com/design/DAFevsSbsUg/JUWPEVy9L6Ob8H1G_NHvCw/view?utm_content=DAFevsSbsUg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+ ## Presentation
+ - Document :- [click here](https://www.canva.com/design/DAFep_0kOd0/OzmLsqiCYTmYuvst1UTK-w/view)
+
+ ## Video Summary
+ - YouTube :- [click here](https://youtu.be/xltI-mbEp6U)
 
 
+
+### Thank You !
